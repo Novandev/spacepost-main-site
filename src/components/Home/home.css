@@ -1,0 +1,32 @@
+#jumbotron{
+    height:calc(99vh - 50);
+    margin-top: -20px;
+    background-image: url("./images/nebula-background.png");
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+#spaceman-img{
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+#jumbotron-h1{
+    color:#ffffff;
+}
+
+@keyframes slidein {
+    0% {
+        margin-top: 100%;
+    }
+
+    50% {
+        margin-top: 0%;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
