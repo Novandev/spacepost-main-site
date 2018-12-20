@@ -5,9 +5,14 @@ import Spaceman from './images/Spaceman.png'
 const Home =() =>{
     return(
         <div id={'home-wrapper'}>
-            <Jumbotron id={'jumbotron'}>
-                    <h1 id={'jumbotron-h1'}>Spacepost</h1>
+            <Jumbotron id={'jumbotron1'}>
+                    <h1 id={'jumbotron1-h1'}>Spacepost</h1>
                 <img  id={'spaceman-img'}src={Spaceman}/>
+
+            </Jumbotron>
+            <Jumbotron id={'jumbotron2'}>
+                <h2>Who We Are</h2>
+
 
             </Jumbotron>
         </div>

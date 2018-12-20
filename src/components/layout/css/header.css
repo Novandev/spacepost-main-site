@@ -1,3 +1,9 @@
 #navbar{
     background:#ffffff;
 }
+.header-nav-link:hover{
+    background-color: #784965;
+}
+#header-nav-brand:hover{
+    color:#784965;
+}
