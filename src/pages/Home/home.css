@@ -31,3 +31,35 @@
         transform: rotate(360deg);
     }
 }
+
+
+
+#jumbotron2{
+    margin-top: -30px;
+    width:100vw;
+    overflow: hidden;
+}
+.media-body-jumbotron{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+media-body-jumbotron > p,img{
+    margin: 2em;
+}
+.home-carousel{
+    margin-top: -30px;
+}
+@media screen and (max-device-width: 1000px) {
+    .media-body-jumbotron{
+
+        /*flex-direction:column;*/
+
+    }
+    .engage-heading{
+        color:red;
+    }
+}
