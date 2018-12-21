@@ -53,13 +53,12 @@ media-body-jumbotron > p,img{
 .home-carousel{
     margin-top: -30px;
 }
-@media screen and (max-device-width: 1000px) {
+@media screen and (max-width: 750px) {
     .media-body-jumbotron{
-
-        /*flex-direction:column;*/
-
+        flex-direction:column;
     }
-    .engage-heading{
-        color:red;
+    media-body-jumbotron > p{
+        margin: 2em;
     }
+
 }

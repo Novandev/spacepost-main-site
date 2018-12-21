@@ -44,6 +44,21 @@ const Home =() =>{
 
                     </div>
 
+                <h3 className={'engage-heading'}>3D Scanning and Modeling</h3>
+
+
+                <div className={'media-body-jumbotron'}>
+                    <img width={350} height={350} src={NeuralNetwork} alt="thumbnail" />
+                    <p>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                        ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+                        tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                        fringilla. Donec lacinia congue felis in faucibus.
+                    </p>
+
+                </div>
+
+
             </Jumbotron>
             <article className={'home-carousel'}>
 
