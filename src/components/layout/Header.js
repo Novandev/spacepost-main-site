@@ -15,23 +15,21 @@ class HeaderLayout extends React.Component{
                     <Navbar id={'navbar'} inverse collapseOnSelect>
                         <Navbar.Header>
                             <Navbar.Brand>
-                                <Link to="#brand"id={'header-nav-brand'} ><p >Spacepost</p></Link>
+                                <Link to="/" className="header-brand-link"> <p id='nav-brand-p'>Spacepost</p></Link>
                             </Navbar.Brand>
                             <Navbar.Toggle />
                         </Navbar.Header>
                         <Navbar.Collapse>
                             <Nav pullRight>
-                                <NavItem eventKey={1} href="#" className={'header-nav-link'}>
-                                    Projects
+                                <NavItem eventKey={1} className={'header-nav-item'}>
+                                    <Link to="/spacepostlabs"  className={'header-nav-link'}>Spacepost Labs</Link>
                                 </NavItem>
-                                <NavItem eventKey={2} href="#" className={'header-nav-link'}>
-                                    About
+                                <NavItem eventKey={2} href="/about" className={'header-nav-item'}>
+                                    <Link to="/about" className={'header-nav-link'}> About</Link>
                                 </NavItem>
-                                <NavItem eventKey={1} href="#" className={'header-nav-link'}>
-                                    Team
-                                </NavItem>
-                                <NavItem eventKey={1} href="#" className={'header-nav-link'}>
-                                    Contact
+                                <NavItem eventKey={1} href="/contact" className={'header-nav-item'}>
+                                    <Link to="/contact" className={'header-nav-link'}>Contact</Link>
+
                                 </NavItem>
                             </Nav>
                         </Navbar.Collapse>

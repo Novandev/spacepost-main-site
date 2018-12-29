@@ -1,9 +1,33 @@
 #navbar{
     background:#ffffff;
 }
-.header-nav-link:hover{
-    background-color: #784965;
+
+
+.header-nav-item:active{
+    color:#000;
+    text-decoration: none;
+
 }
-#header-nav-brand:hover{
+.header-nav-item:hover{
     color:#784965;
+    background-color:#784965;
+}
+
+.header-nav-link{
+    color:#D0D0D0;
+}
+.header-nav-link:hover{
+    background-color:#784965;
+    text-decoration: none;
+    color:#D0D0D0;
+}
+
+
+.header-brand-link{
+    color: #784965;
+}
+
+
+#nav-brand-p:hover{
+    color: #784965;
 }
