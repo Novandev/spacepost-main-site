@@ -21,13 +21,13 @@ class HeaderLayout extends React.Component{
                         </Navbar.Header>
                         <Navbar.Collapse>
                             <Nav pullRight>
-                                <NavItem eventKey={1} className={'header-nav-item'}>
+                                <NavItem eventKey={1} className={'header-nav-item'} to="/spacepostlabs">
                                     <NavLink activeStyle={{color: '#D0D0D0',textDecoration: 'none'}}  to="/spacepostlabs"  className={'header-nav-link'}>Spacepost Labs</NavLink>
                                 </NavItem>
-                                <NavItem eventKey={2} href="/about" className={'header-nav-item'}>
+                                <NavItem eventKey={2} className={'header-nav-item'} to="/about">
                                     <NavLink activeStyle={{color: '#D0D0D0',textDecoration: 'none'}}  to="/about" className={'header-nav-link'}> About</NavLink>
                                 </NavItem>
-                                <NavItem eventKey={1} href="/contact" className={'header-nav-item'}>
+                                <NavItem eventKey={1}  className={'header-nav-item'} to="/contact" >
                                     <NavLink activeStyle={{color: '#D0D0D0',textDecoration: 'none'}}  to="/contact" className={'header-nav-link'}>Contact</NavLink>
 
                                 </NavItem>

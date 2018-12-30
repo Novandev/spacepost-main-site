@@ -44,7 +44,7 @@ const Home =() =>{
 
                     </div>
 
-                <h3 className={'engage-heading'}>3D Scanning and Modeling</h3>
+                <h3 className={'engage-heading'}>Virtual and Augmented Reality</h3>
 
 
                 <div className={'media-body-jumbotron'}>
