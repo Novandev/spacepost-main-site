@@ -12,12 +12,15 @@ export default class Layout extends React.Component{
 
     render(){
         return(
-            <div class="content-wrapper">
+            <div className="content-wrapper">
                 <HeaderLayout/>
                 <main>
                     {this.props.children}
                 </main>
-            <Footer/>
+                <div id='bottom-align'>
+                    <Footer/>
+                </div>
+
 
             </div>
 

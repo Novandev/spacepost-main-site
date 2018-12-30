@@ -14,7 +14,7 @@ class HeaderLayout extends React.Component{
             <header>
                     <Navbar id={'navbar'} inverse collapseOnSelect>
                         <Navbar.Header>
-                            <Navbar.Brand>
+                            <Navbar.Brand id='navbar-brand-container'>
                                 <NavLink to="/" className="header-brand-link"> <p id='nav-brand-p'>Spacepost</p></NavLink>
                             </Navbar.Brand>
                             <Navbar.Toggle />
