@@ -1,0 +1,116 @@
+
+#contact-section{
+    background-color: #D0D0D0;
+    margin-top: -20px;
+}
+#contact-jumbotron{
+    height: 90vh;
+    background: no-repeat  100% url("./images/burst-unsplash.jpg");
+    background-size: cover;
+    background-color:grey;
+}
+#contact-header{
+    position: absolute;
+    top: 40%;
+    left:35%;
+    font-size: 5em;
+}
+
+#location-contact{
+    display:flex;
+    flex-direction: column;
+}
+
+.form-group-flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #784965;
+    padding:1.5em;
+    box-shadow: 0 0 50px ;
+}
+
+#contact-map-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0 auto;
+}
+#contact-map-form >div{
+    margin: 2em 0;
+    width:75vw;
+}
+
+
+#contact-call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 50px inset ;
+    height: 75vh;
+}
+#contact-call-to-action >div{
+    font-size: 2em;
+
+}
+#contact-details{
+    margin: 0 1.5em;
+    text-align: center;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#message-section{
+    text-align: center;
+}
+#message-section-text{
+
+}
+
+
+
+@media(max-width: 620px){
+    #contact-header{
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left:10%;
+        font-size: 5em;
+    }
+
+    #location-form{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 550px){
+    #contact-details>div{
+        /*margin: 0 1.5em;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact-call-to-action >div{
+        font-size: 1.5em;
+
+    }
+    #contact-jumbotron{
+        height: 90vh;
+        background: no-repeat   url("./images/burst-unsplash.jpg");
+        background-size: cover;
+        background-color:grey;
+    }
+}
