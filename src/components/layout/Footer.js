@@ -10,7 +10,7 @@ const Footer = ()=>{
 
             <footer>
                 <section id='subscribe-wrapper'>
-                    <form>
+                    <form action='' id='subscribe-form'>
                         <h4>Subscribe to stay current on the latest from us</h4>
                         <FormGroup
                             controlId="formBasicText"

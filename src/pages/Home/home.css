@@ -1,3 +1,14 @@
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family: 'Syncopate', sans-serif;*/
+/*font-family: 'Aclonica', sans-serif;*/
+/*font-family: 'Lilita One', cursive;*/
+/*font-family: 'Alegreya SC', serif;*/
+/*font-family: 'Monofett', cursive;*/
+/*font-family: 'Chango', cursive;*/
+/*font-family: 'Sigmar One', cursive;*/
+
+
+
 #jumbotron1{
     height:calc(99vh - 50);
     margin-top: -20px;
@@ -17,6 +28,7 @@
 
 #jumbotron1-h1{
     color:#ffffff;
+    font-family: 'Press Start 2P';
 }
 
 @keyframes slidein {
@@ -40,15 +52,24 @@
     overflow: hidden;
     text-align: center;
 }
+#jumbotron2 >h2,h3{
+    font-family: 'Alegreya SC';
+}
+.media-body-jumbotron >p{
+    font-family: 'Lilita One';
+}
 .media-body-jumbotron{
     display:flex;
     flex-direction:row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
-
-media-body-jumbotron > p,img{
+.media-body-jumbotron > img{
+    height:350px;
+    width:50vw;
+}
+.media-body-jumbotron > p,img{
     margin: 2em;
 }
 .home-carousel{
@@ -61,6 +82,10 @@ media-body-jumbotron > p,img{
     }
     media-body-jumbotron > p{
         margin: 2em;
+    }
+    .media-body-jumbotron > img{
+        height:350px;
+        width:85vw;
     }
 
 }

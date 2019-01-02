@@ -1,3 +1,12 @@
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family: 'Syncopate', sans-serif;*/
+/*font-family: 'Aclonica', sans-serif;*/
+/*font-family: 'Lilita One', cursive;*/
+/*font-family: 'Alegreya SC', serif;*/
+/*font-family: 'Monofett', cursive;*/
+/*font-family: 'Chango', cursive;*/
+/*font-family: 'Sigmar One', cursive;*/
+
 footer{
     margin-top: 30px;
     display: flex;
@@ -27,7 +36,10 @@ footer{
     justify-content: center;
     align-items: center;
  }
-
+#social-wrapper>h2{
+    letter-spacing: .3rem;
+    font-family: 'Alegreya SC';
+}
 
 #social-network{
     width:33%;
@@ -45,7 +57,10 @@ footer{
 
 
 
-
+#subscribe-form,#subscribe-wrapper >h4{
+    letter-spacing: .3rem;
+    font-family: 'Alegreya SC';
+}
 
 
 #footer-links{
@@ -61,12 +76,16 @@ footer{
 
 
 .footer-nav-link{
+    letter-spacing: .3rem;
+    font-size: 1.25em;
+    font-family: 'Alegreya SC';
     color:#D0D0D0;
     text-decoration: none;
     padding:2em;
-    border-radius: 10%;
+    border-radius: 50%;
 }
 .footer-nav-link:hover{
+
     background-color:#784965;
     color:#D0D0D0;
     text-decoration: none;
