@@ -4,6 +4,7 @@ import './home.css'
 import Spaceman from './images/Spaceman.png';
 import Vector from './images/physical-vector.jpg';
 import NeuralNetwork from './images/Neuralnetwork.png'
+
 const Home =() =>{
     return(
         <section id={'home-wrapper'}>

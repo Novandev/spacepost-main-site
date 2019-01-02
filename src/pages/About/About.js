@@ -1,9 +1,10 @@
 import React from 'react';
 import {Image} from 'react-bootstrap';
 
-import './About.css'
+import './About.css';
 import Stanley from './images/stanley.png';
-import Novan from './images/Novan.jpg'
+import Novan from './images/Novan.jpg';
+import CompanyLogo from './images/company-logo.jpg';
 class About extends React.Component{
 
 
@@ -104,14 +105,12 @@ class About extends React.Component{
                     <h2>Collaborators</h2>
                     <h3>We would like to acknowledge the following individuals and corporations for their contributions to Spacepost LLC</h3>
                     <div id='collab-grid'>
-                        <div>
-                            <img src="" alt=""/>
-                        </div>
-                        <div><img src="" alt=""/></div>
-                        <div><img src="" alt=""/></div>
-                        <div><img src="" alt=""/></div>
-                        <div><img src="" alt=""/></div>
-                        <div><img src="" alt=""/></div>
+                        <div><img src={CompanyLogo} alt=""/></div>
+                        <div><img src={CompanyLogo} alt=""/></div>
+                        <div><img src={CompanyLogo} alt=""/></div>
+                        <div><img src={CompanyLogo} alt=""/></div>
+                        <div><img src={CompanyLogo} alt=""/></div>
+                        <div><img src={CompanyLogo} alt=""/></div>
 
                     </div>
                 </article>
