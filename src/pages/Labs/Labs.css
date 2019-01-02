@@ -1,3 +1,12 @@
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family: 'Syncopate', sans-serif;*/
+/*font-family: 'Aclonica', sans-serif;*/
+/*font-family: 'Lilita One', cursive;*/
+/*font-family: 'Alegreya SC', serif;*/
+/*font-family: 'Monofett', cursive;*/
+/*font-family: 'Chango', cursive;*/
+/*font-family: 'Sigmar One', cursive;*/
+
 #project-section{
     height:75vh;
 }
@@ -8,4 +17,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+section>h3,h2{
+    font-family: 'Alegreya SC';
+}
+.text-font{
+    margin:0 1.5em;
+    font-family: 'Teko';
 }

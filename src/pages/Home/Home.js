@@ -19,7 +19,7 @@ const Home =() =>{
 
                     <h3 className={'engage-heading'}>Computational Mathematics</h3>
                         <div className={'media-body-jumbotron'}>
-                            <img  src={Vector} alt="thumbnail" />
+                            <img className='engage-img' src={Vector} alt="thumbnail" />
 
                             <p>
                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
@@ -40,7 +40,7 @@ const Home =() =>{
                             fringilla. Donec lacinia congue felis in faucibus.
                         </p>
 
-                        <img width={350} height={350} src={NeuralNetwork} alt="thumbnail" />
+                        <img className='engage-img' src={NeuralNetwork} alt="thumbnail" />
 
 
                     </div>
@@ -49,7 +49,7 @@ const Home =() =>{
 
 
                 <div className={'media-body-jumbotron'}>
-                    <img width={350} height={350} src={NeuralNetwork} alt="thumbnail" />
+                    <img className='engage-img' src={NeuralNetwork} alt="thumbnail" />
                     <p>
                         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
                         ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
