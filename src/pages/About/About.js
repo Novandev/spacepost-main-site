@@ -15,14 +15,29 @@ class About extends React.Component{
             <section id='about'>
                 <article id='our-vision'>
                     <h2>Spacepost......insert tag line here</h2>
-                    <p>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                        ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                        tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                        fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                        tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                        fringilla. Donec lacinia congue felis in faucibus.
-                    </p>
+                    <div>
+                        <h3>History</h3>
+                        <p>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+                            tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                            fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+                            tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                            fringilla. Donec lacinia congue felis in faucibus.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Our Vision</h3>
+                        <p>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+                            tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                            fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+                            tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                            fringilla. Donec lacinia congue felis in faucibus.
+                        </p>
+                    </div>
+
 
                 </article>
                 <article id='team'>
@@ -85,9 +100,20 @@ class About extends React.Component{
                     </div>
 
                 </article>
-                <article id='acknowledgements'>
-                    <h2>acknowledgements</h2>
+                <article id='collaborators'>
+                    <h2>Collaborators</h2>
+                    <h3>We would like to acknowledge the following individuals and corporations for their contributions to Spacepost LLC</h3>
+                    <div id='collab-grid'>
+                        <div>
+                            <img src="" alt=""/>
+                        </div>
+                        <div><img src="" alt=""/></div>
+                        <div><img src="" alt=""/></div>
+                        <div><img src="" alt=""/></div>
+                        <div><img src="" alt=""/></div>
+                        <div><img src="" alt=""/></div>
 
+                    </div>
                 </article>
             </section>
 
