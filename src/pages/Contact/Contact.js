@@ -49,34 +49,33 @@ class Contact extends React.Component{
                                 <p>Feel free to send us a brief email and we will get back to you shortly.</p>
                             </div>
                             <div>
-                                <form action="" id='contact-form' className='bring-together-2'>
+                                <form action="" id='contact-form'>
                                     <FormGroup className='form-group-flex'>
-                                        <div>
-                                            <ControlLabel>Name</ControlLabel>
-                                            <FormControl
+
+                                            <ControlLabel className='text-font'>Name</ControlLabel>
+                                            <FormControl className='text-font-form'
                                                 type="text"
                                                 // value={this.state.value}
                                                 placeholder="Enter text"
                                                 // onChange={this.handleChange}
                                             />
-                                            <ControlLabel>Email</ControlLabel>
-                                            <FormControl
+                                            <ControlLabel className='text-font'>Email</ControlLabel>
+                                            <FormControl className='text-font-form'
                                                 type="text"
                                                 // value={this.state.value}
                                                 placeholder="Enter text"
                                                 // onChange={this.handleChange}
                                             />
-                                            <ControlLabel>Message</ControlLabel>
-                                            <FormControl
+                                            <ControlLabel className='text-font'>Message</ControlLabel>
+                                            <FormControl className='text-font-form'
                                                 componentClass="textarea"
                                                 // value={this.state.value}
                                                 placeholder="Enter text"
                                                 // onChange={this.handleChange}
                                             />
-                                        </div>
 
                                     </FormGroup>
-                                    <Button  id='contact-button-left' type="submit">Submit</Button>
+                                    <Button className='text-font' id='contact-button-left' type="submit">Submit</Button>
                                 </form>
                             </div>
 

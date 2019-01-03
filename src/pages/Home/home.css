@@ -69,6 +69,11 @@
     height:75vh;
     width:90vw;
 }
+#resize-caro{}
+.home-slider-img{
+    width:95vw;
+    margin-right: -50px;
+}
 .media-body-jumbotron > p,img{
     margin: 2em;
 }
@@ -86,6 +91,10 @@
     .media-body-jumbotron > img{
         height:350px;
         width:85vw;
+    }
+    .engage-img{
+        height:75vh;
+        width:100vw;
     }
 
 }

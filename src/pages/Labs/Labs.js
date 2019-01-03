@@ -12,7 +12,7 @@ class Labs extends React.Component{
         return(
             <section id='labs-wrapper'>
                 <Jumbotron id='projects-jumbotron'>
-                    <h3>Spacepost Labs</h3>
+                    <h3 id='labs-header'>Spacepost Labs</h3>
                     <p className='text-font'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut lectus arcu bibendum at varius vel pharetra vel. Lorem mollis aliquam ut porttitor leo a diam. Quis blandit turpis cursus in hac. Sed ullamcorper morbi tincidunt ornare massa eget. Rhoncus dolor purus non enim praesent. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Condimentum lacinia quis vel eros donec ac odio. In est ante in nibh. Ultricies mi eget mauris pharetra et. Ultrices eros in cursus turpis massa tincidunt dui. Risus nullam eget felis eget nunc. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. Feugiat pretium nibh ipsum consequat.</p>
                 </Jumbotron>
                 <article id='project-section'>

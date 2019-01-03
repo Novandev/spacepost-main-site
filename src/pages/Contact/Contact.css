@@ -1,3 +1,11 @@
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family: 'Syncopate', sans-serif;*/
+/*font-family: 'Aclonica', sans-serif;*/
+/*font-family: 'Lilita One', cursive;*/
+/*font-family: 'Alegreya SC', serif;*/
+/*font-family: 'Monofett', cursive;*/
+/*font-family: 'Chango', cursive;*/
+/*font-family: 'Sigmar One', cursive;*/
 
 #contact-section{
     background-color: #D0D0D0;
@@ -15,20 +23,24 @@
     left:35%;
     font-size: 5em;
 }
-
+#contact-details >div>p{
+    font-family: 'Teko';
+}
 #location-contact{
     display:flex;
     flex-direction: column;
 }
 
 .form-group-flex{
+    width:50vw;
     display:flex;
-    flex-direction: row;
+    flex-direction:column;
     justify-content: space-around;
 }
 
 
 #contact-form{
+    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +58,6 @@
     margin:0 auto;
 }
 #contact-map-form >div{
-    margin: 2em 0;
     width:75vw;
 }
 
@@ -75,8 +86,22 @@
 #message-section{
     text-align: center;
 }
-#message-section-text{
 
+.text-font{
+    font-size:1.5em;
+    font-family: 'Teko';
+}
+.text-font-form{
+    font-size:1.5em;
+    font-family: 'Teko';
+    width:100%;
+}
+#message-section>h3{
+    font-size: 2.5em;
+}
+#message-section >p {
+    font-size:1.5em;
+    font-family: 'Teko';
 }
 
 

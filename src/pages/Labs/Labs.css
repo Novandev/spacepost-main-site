@@ -10,8 +10,15 @@
 #project-section{
     height:75vh;
 }
-
-
+/*#labs-wrapper{*/
+    /*margin-bottom: 30vh;*/
+/*}*/
+#project-section{
+    text-align: center;
+}
+#labs-header{
+    font-size: 3.5em;
+}
 #projects-jumbotron{
     display:flex;
     flex-direction: column;
@@ -22,6 +29,12 @@ section>h3,h2{
     font-family: 'Alegreya SC';
 }
 .text-font{
+    font-size: 1.5em;
     margin:0 1.5em;
     font-family: 'Teko';
+}
+@media(max-width: 767px){
+    #labs-wrapper{
+        margin-bottom: 65vh;
+    }
 }
