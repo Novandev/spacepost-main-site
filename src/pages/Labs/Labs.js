@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row,Col, Nav,NavItem,Tab, Jumbotron } from 'react-bootstrap'
-
+import StarryNight from './images/starry-night.jpeg'
 import './Labs.css';
 class Labs extends React.Component{
 
@@ -13,16 +13,16 @@ class Labs extends React.Component{
             <section id='labs-wrapper'>
                 <Jumbotron id='projects-jumbotron'>
                     <h3 id='labs-header'>Spacepost Labs</h3>
-                    <p className='text-font'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut lectus arcu bibendum at varius vel pharetra vel. Lorem mollis aliquam ut porttitor leo a diam. Quis blandit turpis cursus in hac. Sed ullamcorper morbi tincidunt ornare massa eget. Rhoncus dolor purus non enim praesent. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Condimentum lacinia quis vel eros donec ac odio. In est ante in nibh. Ultricies mi eget mauris pharetra et. Ultrices eros in cursus turpis massa tincidunt dui. Risus nullam eget felis eget nunc. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. Feugiat pretium nibh ipsum consequat.</p>
+                    <p className='text-font-header'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut lectus arcu bibendum at varius vel pharetra vel. Lorem mollis aliquam ut porttitor leo a diam. Quis blandit turpis cursus in hac. Sed ullamcorper morbi tincidunt ornare massa eget. Rhoncus dolor purus non enim praesent. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Condimentum lacinia quis vel eros donec ac odio. In est ante in nibh. Ultricies mi eget mauris pharetra et. Ultrices eros in cursus turpis massa tincidunt dui. Risus nullam eget felis eget nunc. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. Feugiat pretium nibh ipsum consequat.</p>
                 </Jumbotron>
                 <article id='project-section'>
                     <Tab.Container id="" defaultActiveKey="first">
                         <Row className="clearfix">
                             <Col sm={4}>
                                 <Nav bsStyle="pills" stacked>
-                                    <NavItem eventKey="first">Project 1</NavItem>
-                                    <NavItem eventKey="second">Project 2</NavItem>
-                                    <NavItem eventKey="third">Project 3</NavItem>
+                                    <NavItem eventKey="first" className='text-font-pills'>Project 1</NavItem>
+                                    <NavItem eventKey="second" className='text-font-pills'>Project 2</NavItem>
+                                    <NavItem eventKey="third" className='text-font-pills'>Project 3</NavItem>
                                 </Nav>
                             </Col>
                             <Col sm={8}>

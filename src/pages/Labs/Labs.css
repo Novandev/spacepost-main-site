@@ -17,9 +17,20 @@
     text-align: center;
 }
 #labs-header{
+    color:#D0D0D0;
     font-size: 3.5em;
 }
+.text-font-header{
+    color:#D0D0D0;
+    font-size: 1.5em;
+    margin:0 1.5em;
+    font-family: 'Teko';
+}
 #projects-jumbotron{
+    margin-top: -20px;
+    height: 75vh;
+    background: url("./images/nebula-background.png");
+    background-attachment: fixed;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,6 +38,17 @@
 }
 section>h3,h2{
     font-family: 'Alegreya SC';
+}
+
+
+.text-font-pills>a{
+    font-size: 1.5em;
+    margin:0 1.5em;
+    font-family: 'Teko';
+    background-color: black;
+}
+.nav-pills>a:active{
+    background-color: black;
 }
 .text-font{
     font-size: 1.5em;
