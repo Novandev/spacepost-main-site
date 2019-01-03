@@ -30,7 +30,7 @@ class Labs extends React.Component{
                                     <Tab.Pane eventKey="first">
                                         <h2>Project 1 content</h2>
                                         <h3>Project Tag Line</h3>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ebyz8xxoK1w"
+                                        <iframe className='video-style' src="https://www.youtube.com/embed/Ebyz8xxoK1w"
                                                 frameBorder="0"
                                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                                 allowFullScreen></iframe>
@@ -41,7 +41,7 @@ class Labs extends React.Component{
                                     <Tab.Pane eventKey="second">
                                         <h2>Project 2 content</h2>
                                         <h3>Project Tag Line</h3>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ebyz8xxoK1w"
+                                        <iframe className='video-style' src="https://www.youtube.com/embed/Ebyz8xxoK1w"
                                                 frameBorder="0"
                                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                                 allowFullScreen></iframe>
@@ -52,7 +52,7 @@ class Labs extends React.Component{
                                     <Tab.Pane eventKey="third">
                                         <h2>Project 3 content</h2>
                                         <h3>Project Tag Line</h3>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ebyz8xxoK1w"
+                                        <iframe className='video-style' src="https://www.youtube.com/embed/Ebyz8xxoK1w"
                                                 frameBorder="0"
                                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                                 allowFullScreen></iframe>

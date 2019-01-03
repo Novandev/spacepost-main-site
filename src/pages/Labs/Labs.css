@@ -45,10 +45,19 @@ section>h3,h2{
     font-size: 1.5em;
     margin:0 1.5em;
     font-family: 'Teko';
+    color: #784965;
     background-color: black;
 }
-.nav-pills>a:active{
-    background-color: black;
+.video-style{
+    height:50vh;
+    width: 50vw;
+}
+.row,clearfix{
+    max-width:100vw;
+}
+#labs-wrapper{
+    max-width:100vw;
+    overflow-x: hidden visible;
 }
 .text-font{
     font-size: 1.5em;
@@ -57,6 +66,19 @@ section>h3,h2{
 }
 @media(max-width: 767px){
     #labs-wrapper{
-        margin-bottom: 65vh;
+        margin-bottom: 100vh;
+    }
+    .video-style{
+        height:75vh;
+        width: 75vw;
+    }
+
+    .row,clearfix{
+        padding-left: 10%;
+    }
+    @media(max-width: 463px){
+        #labs-wrapper{
+            margin-bottom: 130vh;
+        }
     }
 }

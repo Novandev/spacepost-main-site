@@ -71,14 +71,16 @@
 }
 
 .home-slider-img{
-    width:95vw;
-    margin-right: -50px;
+    max-height: 65vh;
+    width:85vw;
+    margin:0 auto;
+    /*margin-right: -50px;*/
 }
 .media-body-jumbotron > p,img{
     margin: 2em;
 }
 .home-carousel{
-
+    margin-top: -29px;
     background: url("./images/nebula-background.png");
     background-attachment: fixed;
     /*background-size: contain;*/
